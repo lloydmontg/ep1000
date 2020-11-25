@@ -2,6 +2,9 @@
 	<head>
 		<title> Templates </title>
 		<link rel="stylesheet" type="text/css" href="sitetemplate.css"/>
+		<script type="text/javascript" src="jsc3d/jsc3d.js"></script>
+		<script type="text/javascript" src="jsc3d/jsc3d.webgl.js"></script>
+		<script type="text/javascript" src="jsc3d/jsc3d.touch.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -37,6 +40,28 @@
 					I will not be embedding any here. Typically, I have noticed that many phone stands have a degree of versatility to their design, allowing it to dock phones in both portrait and landscape orientations, change viewing angles, or even charge the phone while docked.
 					This is a vital part of a phone stand that creates the universal usability within the mobile market range where phones and tablet devices range from small compact devices to the much larger screen tablets. My sample device for testing is a Samsung Galaxy Note 9 with no external protective case (this is important to specify as the thickness that some cases can add will majorly 
 					affect the fit and stability of the stand.)</p>
+					
+				<h3><a id="3dcad">3D Computer Aided Design in Fusion 360</a></h3>
+					<p> This task is part 1 of 2 of the 3D Modelling and Printing section of the module. As of right now I have a keychain sample file available for download which I am also going to preview it here.
+					Unfortunately I am incredibly uncreative at the time of modelling this keychain and have opted for a very basic design. Anyway have fun.</p>
+					
+					<canvas id="cv" width=640 height=480>
+    It seems you are using an outdated browser that does not support canvas :-(
+					</canvas>
+					<script type="text/javascript">
+					var canvas = document.getElementById('cv');
+					var viewer = new JSC3D.Viewer(canvas);
+					viewer.setParameter('SceneUrl','keychainsample.stl');
+					viewer.setParameter('ModelColor','#CAA618');
+					viewer.setParameter('BackgroundColor1','#E5D7BA');
+					viewer.setParameter('BackgroundColor2','#383840');
+					viewer.setParameter('RenderMode','flat');
+					viewer.setParameter('MipMapping','on');
+					viewer.setParameter('Definition','high');
+					viewer.setParameter('Renderer','webgl');
+					viewer.init();
+					viewer.update();
+					</script>
 		</div>
 			<div id="footer">
 			Copyright &copy; 2020 Hektor L.
