@@ -59,13 +59,13 @@ h1, h2, h3 {
 	background-color:#4CAF50;
 	color: white;
 }
+
 #main {
-	float: left;
-	text-align:center;
-	padding: 10px;
+	width: 900px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: Gotham, sans-serif;
-	
-	
 }
 
 input[type=text], textarea {
