@@ -7,7 +7,7 @@
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	
+	font-family: Gotham, sans-serif;
 }
 
 #header {
@@ -31,6 +31,7 @@ h1, h2, h3 {
 
 #nav {
 	float: center;
+	font-family: Gotham, sans-serif;
 }
 
 .topnav {
