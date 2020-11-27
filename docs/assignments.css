@@ -33,7 +33,8 @@ h1, h2, h3 {
 .photo {
 	max-width:20%;
 	float:left;
-	padding:0px 30px 10px 0px;
+	padding-top:0px;
+	
 }
 
 
