@@ -59,7 +59,7 @@ h1, h2, h3 {
 	color: white;
 }
 #main {
-	float: center;
+	float: left;
 	text-align:center;
 	padding: 10px;
 	font-family: Gotham, sans-serif;

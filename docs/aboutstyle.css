@@ -67,12 +67,12 @@ h1, h3 {
 }
 
 #main, h2 {
-	text-align:center;
+	text-align: left;
 	font-family: Gotham, sans-serif;
 }
 
 #main {
-	float: center;
+	float: left;
 	padding: 10px;
 	text-align:left;
 	font-family: Gotham, sans-serif;

@@ -1,6 +1,6 @@
 #body {
 	background-color: #EEEEEE;
-	font-family: Source Code Pro, sans-serif;
+	font-family: Gotham, sans-serif;
 }
 #container{
 	background-color: silver;
@@ -15,14 +15,17 @@
 	color: white;
 	text-align: center;
 	padding: 10px;
+	font-family: Gotham, sans-serif;
 }
 
 h1, h2, h3 {
 	margin:0;
+	font-family: Gotham, sans-serif;
 }
 
 #content {
 	padding: 10px;
+	font-family: Gotham, sans-serif;
 
 }
 
@@ -33,6 +36,7 @@ h1, h2, h3 {
 .topnav {
 	background-color: #333;
 	overflow: hidden;
+	font-family: Gotham, sans-serif;
 }
 
 .topnav a {
@@ -42,6 +46,7 @@ h1, h2, h3 {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	font-family: Gotham, sans-serif;
 }
 
 .topnav a:hover{
@@ -54,9 +59,10 @@ h1, h2, h3 {
 	color: white;
 }
 #main {
-	text-align:center;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: Gotham, sans-serif;
 }
 
 #footer {
@@ -65,5 +71,6 @@ h1, h2, h3 {
 	background-color: #999999;
 	color:white;
 	text-align: right;
+	font-family: Gotham, sans-serif;
 }
 	
