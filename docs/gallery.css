@@ -71,7 +71,7 @@ h1, h2, h3 {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 0 4px;
 }
 
