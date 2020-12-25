@@ -72,14 +72,14 @@ h1, h2, h3 {
 .row {
   display: flex;
   flex-wrap: nowrap;
-  padding: 0 4px;
+  padding: 4px;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
   max-width: 50%;
-  padding: 0 4px;
+  padding: 4px;
 }
 
 .column img {
