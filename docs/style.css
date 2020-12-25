@@ -32,13 +32,11 @@ h1, h2, h3 {
 
 #nav {
 	float: center;
-	font-family: Gotham, sans-serif;
 }
 
 .topnav {
 	background-color: #333;
 	overflow: hidden;
-	font-family: Gotham, sans-serif;
 }
 
 .topnav a {
@@ -59,6 +57,7 @@ h1, h2, h3 {
 .topnav a.active {
 	background-color:#4CAF50;
 	color: white;
+	font-family: Gotham, sans-serif;
 }
 
 #main {
