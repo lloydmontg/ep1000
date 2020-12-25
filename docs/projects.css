@@ -38,6 +38,7 @@ h1, h2, h3 {
 .topnav {
 	background-color: #333;
 	overflow: hidden;
+	font-family: Gotham, sans-serif;
 }
 
 .topnav a {
