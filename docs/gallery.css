@@ -85,7 +85,7 @@ h1, h2, h3 {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 80%;
+  width: 100%;
 }
 
 #footer {
