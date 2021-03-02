@@ -1,6 +1,6 @@
 #body {
 	background-color: #EEEEEE;
-	font-family: Gotham, sans-serif;
+	
 }
 #container{
 	background-color: silver;
@@ -38,7 +38,6 @@ h1, h2, h3 {
 .topnav {
 	background-color: #333;
 	overflow: hidden;
-	font-family: Gotham, sans-serif;
 }
 
 .topnav a {
@@ -69,6 +68,16 @@ h1, h2, h3 {
 	font-family: Gotham, sans-serif;
 }
 
+table, th {
+	border: 1px solid black;
+	font-family: Gotham, sans-serif;
+}
+
+table {
+	background-color:gainsboro;
+	font-family: Gotham, sans-serif;
+}
+
 .row {
   display: flex;
   flex-wrap: nowrap;
@@ -88,6 +97,50 @@ h1, h2, h3 {
   width: 100%;
 }
 
+input[type=text], textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius:4px;
+	box-sizing: border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color:#45a049;
+}
+
+.form-container {
+	border-radius: 5px;
+	background-color: green;
+	padding: 20px;
+}
+
+.photo {
+	max-width:20%;
+	float:left;
+	padding-top:0px;
+	
+}
+
+.abtphoto {
+	max-width:20%;
+	float:left;
+	padding:0px 30px 10px 0px;
+}
+
+
 #footer {
 	clear: both;
 	padding: 10px;
@@ -96,4 +149,3 @@ h1, h2, h3 {
 	text-align: right;
 	font-family: Gotham, sans-serif;
 }
-	

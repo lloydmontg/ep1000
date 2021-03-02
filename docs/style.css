@@ -57,7 +57,6 @@ h1, h2, h3 {
 .topnav a.active {
 	background-color:#4CAF50;
 	color: white;
-	font-family: Gotham, sans-serif;
 }
 
 #main {
